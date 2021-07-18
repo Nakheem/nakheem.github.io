@@ -111,9 +111,8 @@
               </div>
             </div>
             <p>
-              Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-              Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
-            </p>
+              I am currently a full time University student, at The University of British Columbia. I am pursuing a Bachelor of Arts in Computer Science with a minor in Psychology 
+            </p> 
           </div>
         </div>
 
@@ -126,7 +125,6 @@
 
         <div class="section-title">
           <h2>Skills</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
 
         <div class="row skills-content">
@@ -210,29 +208,28 @@
 
             <h3 class="resume-title">Education</h3>
             <div class="resume-item">
-              <h4>Master of Fine Arts &amp; Graphic Design</h4>
-              <h5>2015 - 2016</h5>
-              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-              <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+              <h4>Bachleor of Arts in Computer Science</h4>
+              <h5>2020 - 2022</h5>
+              <p><em>University of British Columbia, British Columbia, Canada</em></p>
+              <p>Graduating in December 2020. Completed courses in many different areas in Computer Science. Completed several group projects using github for source control. Project links below</p>
             </div>
             <div class="resume-item">
-              <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-              <h5>2010 - 2014</h5>
-              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-              <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+              <h4>Associates of Arts in Computer Science</h4>
+              <h5>2017 - 2020</h5>
+              <p><em>Okanagan College, British Colombia, Canada</em></p>
+              <p>Gained introductory knowledge to Computer Science and Psychology </p>
             </div>
           </div>
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <h3 class="resume-title">Professional Experience</h3>
             <div class="resume-item">
-              <h4>Senior graphic design specialist</h4>
-              <h5>2019 - Present</h5>
-              <p><em>Experion, New York, NY </em></p>
+              <h4>Senior Canvas Gamification </h4>
+              <h5>2021-2020</h5>
+              <p><em>University of British Columbia, British Columbia, Canada </em></p>
               <ul>
-                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+                <li> Worked with two different teams, supervised directly by Dr.Bowen to created and add features to new kinds of website for the school</li>
+                <li> First team working with a five person team to create a leaderboard in angular and django, using a sqlite database to store and manage data </li>
+                <li>Second team developed question for the students that used the best site, this envoled meeting and discussing the best way to test a certain coding skill thro question. Then we input them in the website and use junit for testing</li>
               </ul>
             </div>
             <div class="resume-item">
