@@ -362,7 +362,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web filter-card">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
