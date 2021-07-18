@@ -244,7 +244,7 @@
               </ul>
             </div>
             <div class="resume-item">
-              <h4>Medical Web App/h4>
+              <h4>Medical Web</h4>
               <h5>2017 - 2018</h5>
               <p><em>Stepping Stone Advertising, New York, NY</em></p>
               <ul>
