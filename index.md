@@ -254,17 +254,6 @@
                 <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
               </ul>
             </div>
-            <div class="resume-item">
-              <h4>Medical Web App/h4>
-              <h5>2017 - 2018</h5>
-              <p><em>Stepping Stone Advertising, New York, NY</em></p>
-              <ul>
-                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
-                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
-              </ul>
-            </div>
           </div>
         </div>
 
