@@ -83,7 +83,7 @@
 
         <div class="section-title">
           <h2>About</h2>
-          <p>Hello! My name is Nakheem. I am currently a Computer Science major at the University of Britsh Colimbia</p>
+          <p>Hello! My name is Nakheem. I am currently a Computer Science major at the University of Britsh Columbia</p>
         </div>
 
         <div class="row">
@@ -221,9 +221,9 @@
             </div>
           </div>
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Professional Experience</h3>
+            <h3 class="resume-title">Completed Projects</h3>
             <div class="resume-item">
-              <h4>Senior Canvas Gamification </h4>
+              <h4>Canvas Gamification </h4>
               <h5>2021-2020</h5>
               <p><em>University of British Columbia, British Columbia, Canada </em></p>
               <ul>
@@ -233,7 +233,29 @@
               </ul>
             </div>
             <div class="resume-item">
-              <h4>Graphic design specialist</h4>
+              <h4>League of Legends data Analysis</h4>
+              <h5>2017 - 2018</h5>
+              <p><em>Stepping Stone Advertising, New York, NY</em></p>
+              <ul>
+                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
+                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
+                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
+                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Medical Web App/h4>
+              <h5>2017 - 2018</h5>
+              <p><em>Stepping Stone Advertising, New York, NY</em></p>
+              <ul>
+                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
+                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
+                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
+                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Medical Web App/h4>
               <h5>2017 - 2018</h5>
               <p><em>Stepping Stone Advertising, New York, NY</em></p>
               <ul>
