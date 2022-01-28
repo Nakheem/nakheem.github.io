@@ -104,6 +104,33 @@
                   <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>nakheem.duhaney@hotmail.com </span></li>
                 </ul>
               </div>
+              <!--chart start-->
+                  <div class="chart">
+                    <ul class="numbers">
+                      <li><span>100%</span></li>
+                      <li><span>50%</span></li>
+                      <li><span>0%</span></li>
+                    </ul>
+                    <ul class="bars">
+                      <li><div class="bar" data-percentage="50"></div><span>Option 01</span></li>
+                      <li><div class="bar" data-percentage="30"></div><span>Option 02</span></li>
+                      <li><div class="bar" data-percentage="60"></div><span>Option 03</span></li>
+                      <li><div class="bar" data-percentage="100"></div><span>Option 04</span></li>
+                      <li><div class="bar" data-percentage="80"></div><span>Option 05</span></li>
+                    </ul>
+                  </div>
+                  <!--chart end-->
+
+                  <script type="text/javascript">
+                  $(function(){
+                    $('.bars li .bar').each(function(key, bar){
+                      var percentage = $(this).data('percentage');
+                      $(this).animate({
+                        'height' : percentage + '%'
+                      },1000);
+                    });
+                  });
+                  </script>
             </div>
           </div>
         </div>
