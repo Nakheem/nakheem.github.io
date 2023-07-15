@@ -5,9 +5,11 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import './Navbar.css';
 import logo from '../Images/profile.png';
 
+
+
 function mainNav(){
     return(
-        <Navbar expand="lg" className="bg-body-tertiary" sticky='top'>
+        <Navbar expand="lg" className="" sticky='top'>
         {/* <Container> */}
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

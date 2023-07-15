@@ -20,9 +20,10 @@ function App() {
   return (
     <div className="App">
       <body>
+      <Container>
       <Nav />
         <About />
-        <Container>
+        
           <Row>
           <p> Projects</p>
           <Cards title="League of Legends Data analyst"  buttonText="More Information" 
@@ -33,6 +34,9 @@ function App() {
             information = "Created a website with HTML, CSS, JavaScript, PHP and Ajax for online discussions and personalized blog posts. 
                           As part of a group project, I used the Agile Scrum method and Jira to assign tasks. " 
             image={BlogWebSite} alt="Cat" github = {"https://github.com/Nakheem/360Website"} />
+          <Cards title="Version 1 of website"  buttonText="More information" 
+            information = "My old website, using static HTML and CSS. Based on a template" 
+            image={BlogWebSite} alt="Cat" github = {"https://github.com/Nakheem/OldWebSite"} buttonTitle = {"Vist site"} link = {"https://nakheem.github.io/OldWebSite/"}/>  
           </Row>
        </Container>
        <Container>
