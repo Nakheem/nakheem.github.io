@@ -1,0 +1,23 @@
+
+.container{
+    width: 80%;
+    height: 100%;
+    padding-top: 0;
+}
+
+.profilePicture{
+  width:400px;
+  margin: 10px;
+  border:10px solid #D02F8F;
+  border-radius: 500px;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  background-color: #702FD0;
+  margin-top: 15%;
+  margin-bottom: 10%;
+}
+
+p{
+    font-family: 'Silkscreen', cursive;
+    font-size: 30px;
+}
