@@ -42,12 +42,12 @@ function App() {
        <Container>
           <Row>
           <p> Work Experience </p>
-          <Cards title="Canadian Tire Data Analyst Intern" buttonText="What I did" 
+          <Cards title="Canadian Tire Data Analyst Intern" buttonText="What I did do" 
           information = "  Analysed Supplier Performance fines by reviewing different web-based systems, such as SPS commerce, retrieving data from EDW tables or pulling reports and reviewing them in Excel to identify discrepancies and determine whether fines were justified.
           Collaborated with various stakeholders at different levels within the organization to communicate reasons for the acceptance or reversal of fines.
           " 
           image={CTC} alt="Cat" />
-          <Cards title="UBC Web Developer CO OP"  buttonText="Yes it does!" 
+          <Cards title="UBC Web Developer CO OP"  buttonText="What do I do!" 
           information = "Developed features for a new University website, that would allow new Computer Science students to solve programming problems." 
           image={UBC} alt="Cat" />
           </Row>
@@ -55,10 +55,10 @@ function App() {
        <Container>
           <Row>
           <p>Education</p>
-          <Cards title="Bachelors of Arts In Computer Science"  buttonText="Yes it does!" 
+          <Cards title="Bachelors of Arts In Computer Science"  buttonText="More information" 
           information = "University of British Columbia, Department of Science and Arts  2020-2023" 
           image={UBC} alt="Cat" />
-          <Cards title="Assoicates of Arts"  buttonText="Okanagan College"
+          <Cards title="Assoicates of Arts"  buttonText="More information"
           information = "Associate of Arts 2017 - 2020"
           image={OC} alt="Cat" />
           </Row>
