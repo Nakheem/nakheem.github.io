@@ -4,22 +4,34 @@
     display: block;
     margin-top: 10px;
     margin-left: auto;
-     margin-right: auto;
+    margin-right: auto;
 }
 
 .cardBody {
     font-family: 'Silkscreen', cursive;
     font-size: 30px;
-    border: 5px solid #D02F8F;
-    margin-top: 10px;
+    box-shadow: 10px 10px #702FD0;
+    margin-top: 20px;
+    margin-bottom: 3px;
     padding-bottom: 10px;
 }
 
 .cardBody:hover{
     transform: translateY(-10px);
     -webkit-transform: translateY(-10px);
+    box-shadow: 10px 10px #D02F8F;
 }
 
+
 p {
+    padding-top: 10px;
     font-family: 'Courier New', Courier, monospace;
+}
+
+.cardButton{
+    background-color: #702FD0;
+}
+
+.cardBody:hover .cardButton{
+    background-color: #D02F8F;
 }

@@ -13,8 +13,14 @@
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
   background-color: #702FD0;
-  margin-top: 15%;
+  margin-top: 12%;
   margin-bottom: 10%;
+}
+
+.profilePicture:hover{
+  border:10px solid #702FD0;
+  background-color: #D02F8F;
+
 }
 
 p{

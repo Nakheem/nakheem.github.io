@@ -24,9 +24,9 @@ function MyVerticallyCenteredModal(props) {
         </p>
       </Modal.Body>
       <Modal.Footer>
-      {props.github ? <a href={props.github}> <Button>GitHub</Button></a> :null}
-      {props.link ? <a href={props.link}> <Button>{props.buttonTitle}</Button> </a> :null}
-        <Button onClick={props.onHide}>Close</Button>
+      {props.github ? <a href={props.github}> <Button className= "cardButton" >GitHub</Button></a> :null}
+      {props.link ? <a href={props.link}> <Button className= "cardButton" >{props.buttonTitle}</Button> </a> :null}
+        <Button onClick={props.onHide}  className='cardButton'>Close</Button>
       </Modal.Footer>
     </Modal>
   );
@@ -44,7 +44,7 @@ function Cards(props) {
         <Card.Text>
           {props.text}
         </Card.Text>
-        <Button variant="primary" href={props.buttonLink} onClick={() => setModalShow(true)} >{props.buttonText} </Button>
+        <Button className= "cardButton" color="#C02FD0" variant="primary" href={props.buttonLink} onClick={() => setModalShow(true)} >{props.buttonText} </Button>
       </Card.Body>
     </Card>
 

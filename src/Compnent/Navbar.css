@@ -2,9 +2,10 @@
     height: 100%;
     width: 100%;
     opacity: 0.93;
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Silkscreen', cursive;
     margin-top: 5%;
+    justify-content: center;
     
 }
 .containter{
@@ -16,12 +17,12 @@
   opacity: 1;
 }
 
-  a {
+.navBarLink {
     display: inline-block;
     position: relative;
   }
   
-  a::after {
+  .navBarLink::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -34,7 +35,7 @@
     transition: transform 0.25s ease-out;
   }
   
- a:hover::after {
+  .navBarLink:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
   }
