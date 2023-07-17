@@ -71,11 +71,11 @@ function MainNav(props){
   const [modalShowResume, setModalShowResume] = useState(false);
     return(
       <>
-        <Navbar expand="lg" className="navbar">
+        <Navbar>
         {/* <Container> */}
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
+            <Nav className="m-auto">
               <Nav.Link className="navBarLink" href="#home">Home</Nav.Link>
               <Nav.Link className="navBarLink" href="#Projects">Projects</Nav.Link>
               <Nav.Link className="navBarLink" onClick={() => setModalShowResume(true)}>Resume</Nav.Link>

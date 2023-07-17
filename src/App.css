@@ -3,7 +3,8 @@
  }
 
 body{
-  background-image: linear-gradient(to bottom, #C02FD0, white);
+  background-image: linear-gradient(to bottom,
+   #C02FD0 , white 80% );
 }
 
 @media (prefers-reduced-motion: no-preference) {
