@@ -30,6 +30,12 @@ function App() {
           information = " Worked with the League of Legends public API to retrieve information from thousands of games with the goal of finding strategies used by skilled players to win games.
                         Grouped data based on win rate, and tried to find correlations in different metrics and those win rates."
                         image={League} alt="Cat" link = {"https://www.youtube.com/watch?v=X4VEX-JXPqY"} buttonTitle = "Youtube Link" github = {"https://github.com/Nakheem/Data301"} />
+          <Cards title="League of Legends Search Engine"  buttonText="More information" 
+            information = "Crated a League of Legend Search Bar to allow players to look up information about Champions and Players. It uses React and Bootstrap" 
+            image={League} alt="Cat" github = {"https://github.com/Nakheem/leaguesearch"} />  
+          <Cards title="Backend For League of Legends Search"  buttonText="More information" 
+            information = "Crated to allow the search bar to connect to Riot API. Allowing players to look up match history. It uses Node.js, express js, Mongo DB backend" 
+            image={League} alt="Cat" github = {"https://github.com/Nakheem/lol-api-app"} />  
           <Cards title="Blog Web site"  buttonText="MORE INFORMATION!"  
             information = "Created a website with HTML, CSS, JavaScript, PHP and Ajax for online discussions and personalized blog posts. 
                           As part of a group project, I used the Agile Scrum method and Jira to assign tasks. " 
