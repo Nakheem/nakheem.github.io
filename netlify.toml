@@ -3,3 +3,7 @@
 [build]
   command = "npm run build"
   publish = "build"
+
+[build.environment]
+  # Vite 8 / Rolldown needs Node >= 20.19. Netlify still defaults to Node 18 (EOL).
+  NODE_VERSION = "22"
