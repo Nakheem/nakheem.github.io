@@ -1,0 +1,5 @@
+# Netlify build config, version-controlled so it isn't only in the dashboard.
+# Vite (unlike CRA) doesn't fail the build on lint warnings, so no CI=false needed.
+[build]
+  command = "npm run build"
+  publish = "build"

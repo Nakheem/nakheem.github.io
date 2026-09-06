@@ -1,8 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import Nav from './Compnent/Navbar'
 import 'bootstrap/dist/css/bootstrap.css';
-import profileImg from './Images/ProfileImage.png'
 import About from './Compnent/About'
 import Cards from './Compnent/Cards'
 import Container from 'react-bootstrap/Container';
@@ -20,7 +18,7 @@ import oldWebSite from "./Images/OldWebSite.png";
 function App() {
   return (
     <div className="App">
-      <body>
+      <div className="page">
       <Container>
       <Nav className='m-auto' />
         <About /> 
@@ -68,8 +66,8 @@ function App() {
           information = "Associate of Arts 2017 - 2020"
           image={OC} alt="Cat" />
           </Row>
-       </Container>    
-         </body>
+       </Container>
+         </div>
     </div>
   );
 }
