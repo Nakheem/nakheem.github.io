@@ -23,7 +23,7 @@ function App() {
       <Nav className='m-auto' />
         <About /> 
           <Row>
-          <p className='header' id='Projects'> Project</p>
+          <p className='header' id='Projects'> Projects</p>
           <Cards title="League of Legends Data analyst"  buttonText="More Information" 
           information = " Worked with the League of Legends public API to retrieve information from thousands of games with the goal of finding strategies used by skilled players to win games.
                         Grouped data based on win rate, and tried to find correlations in different metrics and those win rates."
