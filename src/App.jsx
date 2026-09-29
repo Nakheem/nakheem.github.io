@@ -62,7 +62,12 @@ function App() {
        <Container>
           <Row>
           <p className='header' > Work Experience </p>
-          <Cards title="Canadian Tire Data Analyst Intern" buttonText="What I did do!" 
+          <Cards title="Canadian Tire Application Developer" buttonText="What do I do!"
+          information = "Nov 2023 - Current. I build and maintain internal Angular web applications used by over 500 stores, giving them real-time access to sales, margins, and top-performing products.
+          I own the full lifecycle, from requirements to testing and user support, and reached 100% store adoption within one month.
+          I also build RESTful APIs with Java Spring, write automated tests with Jasmine, and help migrate legacy Excel tools to web applications." 
+          image={CTC} alt="Canadian Tire logo" />
+          <Cards title="Canadian Tire Data Analyst Intern" buttonText="What I did do!"
           information = "  Analysed Supplier Performance fines by reviewing different web-based systems, such as SPS commerce, retrieving data from EDW tables or pulling reports and reviewing them in Excel to identify discrepancies and determine whether fines were justified.
           Collaborated with various stakeholders at different levels within the organization to communicate reasons for the acceptance or reversal of fines.
           " 
