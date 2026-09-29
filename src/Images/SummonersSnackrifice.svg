@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" shape-rendering="crispEdges">
+  <rect width="200" height="200" fill="#2A0F3D"/>
+  <!-- summoning circle -->
+  <circle cx="100" cy="150" r="70" fill="none" stroke="#C02FD0" stroke-width="4" shape-rendering="geometricPrecision"/>
+  <circle cx="100" cy="150" r="54" fill="none" stroke="#D02F8F" stroke-width="2" shape-rendering="geometricPrecision"/>
+  <!-- cards -->
+  <g transform="rotate(-14 62 96)">
+    <rect x="36" y="56" width="52" height="76" fill="#FFFFFF"/>
+    <rect x="36" y="56" width="52" height="76" fill="none" stroke="#702FD0" stroke-width="3"/>
+    <text x="62" y="104" font-family="monospace" font-size="30" font-weight="bold" fill="#D02F8F" text-anchor="middle">A</text>
+  </g>
+  <g transform="rotate(14 138 96)">
+    <rect x="112" y="56" width="52" height="76" fill="#FFFFFF"/>
+    <rect x="112" y="56" width="52" height="76" fill="none" stroke="#702FD0" stroke-width="3"/>
+    <text x="138" y="104" font-family="monospace" font-size="30" font-weight="bold" fill="#140A2E" text-anchor="middle">K</text>
+  </g>
+  <rect x="74" y="44" width="52" height="76" fill="#FFFFFF"/>
+  <rect x="74" y="44" width="52" height="76" fill="none" stroke="#702FD0" stroke-width="3"/>
+  <text x="100" y="94" font-family="monospace" font-size="30" font-weight="bold" fill="#702FD0" text-anchor="middle">21</text>
+  <!-- snack: cookie -->
+  <rect x="84" y="140" width="32" height="24" fill="#E0A458"/>
+  <rect x="80" y="144" width="40" height="16" fill="#E0A458"/>
+  <rect x="90" y="146" width="5" height="5" fill="#5A3417"/>
+  <rect x="104" y="144" width="5" height="5" fill="#5A3417"/>
+  <rect x="98" y="154" width="5" height="5" fill="#5A3417"/>
+  <!-- sparkles -->
+  <g fill="#FFE14D">
+    <rect x="22" y="22" width="6" height="6"/>
+    <rect x="172" y="28" width="6" height="6"/>
+    <rect x="30" y="160" width="4" height="4"/>
+    <rect x="166" y="164" width="4" height="4"/>
+  </g>
+</svg>

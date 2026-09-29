@@ -78,6 +78,7 @@ function MainNav(props){
             <Nav className="m-auto">
               <Nav.Link className="navBarLink" href="#home">Home</Nav.Link>
               <Nav.Link className="navBarLink" href="#Projects">Projects</Nav.Link>
+              <Nav.Link className="navBarLink" href="#GameJams">Game<br />Jams</Nav.Link>
               <Nav.Link className="navBarLink" onClick={() => setModalShowResume(true)}>Resume</Nav.Link>
               <Nav.Link className="navBarLink" href="https://github.com/nakheem">GitHub</Nav.Link>
               <Nav.Link className="navBarLink"  onClick={() => setModalShow(true)}>Contact</Nav.Link>

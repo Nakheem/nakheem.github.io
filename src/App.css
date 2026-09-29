@@ -17,6 +17,26 @@ body{
   font-family: 'Silkscreen', cursive;
   font-weight: bold;
 }
+
+/* Use more of the screen width than the 80% set in About.css, so three
+   cards fit per row on a 13" laptop. */
+.page > .container {
+  width: 100%;
+  max-width: 1400px;
+}
+
+/* Card sections: as many 400px columns as fit (three on a 13" laptop),
+   centered as a block, with cards filling from the left so a short last
+   row lines up under the first column. */
+.row.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(400px, 100%), 400px));
+  justify-content: center;
+}
+
+.row.cardGrid > .header {
+  grid-column: 1 / -1;
+}
 .App-header {
   background: #336FCC;
   min-height: 30%vh;
