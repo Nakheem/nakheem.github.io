@@ -17,9 +17,18 @@
   opacity: 1;
 }
 
+/* Wrap whole links onto a new row instead of splitting multi-word ones
+   like "Game Jams", which would stretch every link and push the hover
+   underline below the text. */
+.navbar-nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
 .navBarLink {
     display: inline-block;
     position: relative;
+    white-space: nowrap;
   }
   
   .navBarLink::after {
