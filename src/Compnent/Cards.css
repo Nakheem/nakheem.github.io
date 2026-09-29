@@ -7,6 +7,15 @@
     margin-right: auto;
 }
 
+/* Sized so three cards fit per row on a 13" laptop (1280px and up),
+   shrinking to fit the screen on phones. */
+.row > .cardBody {
+    width: 380px;
+    max-width: calc(100% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 .cardBody {
     font-family: 'Silkscreen', cursive;
     font-size: 30px;

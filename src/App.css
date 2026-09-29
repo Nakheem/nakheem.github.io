@@ -17,6 +17,17 @@ body{
   font-family: 'Silkscreen', cursive;
   font-weight: bold;
 }
+
+/* Use more of the screen width than the 80% set in About.css, so three
+   cards fit per row on a 13" laptop. */
+.page > .container {
+  width: 100%;
+  max-width: 1400px;
+}
+
+.page .row {
+  justify-content: center;
+}
 .App-header {
   background: #336FCC;
   min-height: 30%vh;

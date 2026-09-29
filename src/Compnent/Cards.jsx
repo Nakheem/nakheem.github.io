@@ -37,7 +37,7 @@ function Cards(props) {
 
   return (
     <>
-    <Card className= "cardBody" style={{ width: '400px', marginRight: '20px'}}>
+    <Card className= "cardBody">
       <Card.Img className ="cardImage" variant="top" src={props.image} alt={props.alt}/>
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>

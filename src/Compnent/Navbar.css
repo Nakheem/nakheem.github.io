@@ -17,18 +17,23 @@
   opacity: 1;
 }
 
-/* Wrap whole links onto a new row instead of splitting multi-word ones
-   like "Game Jams", which would stretch every link and push the hover
-   underline below the text. */
+/* Wrap whole links onto a new row on narrow screens, and let each link
+   keep its own height (instead of stretching to the two-line "Game Jams")
+   so every hover underline sits right under its own text. */
 .navbar-nav {
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
   }
 
 .navBarLink {
     display: inline-block;
     position: relative;
     white-space: nowrap;
+  }
+
+.navBarLink.twoLine {
+    line-height: 1;
   }
   
   .navBarLink::after {
