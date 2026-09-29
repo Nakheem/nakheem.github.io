@@ -25,8 +25,17 @@ body{
   max-width: 1400px;
 }
 
-.page .row {
+/* Card sections: as many 400px columns as fit (three on a 13" laptop),
+   centered as a block, with cards filling from the left so a short last
+   row lines up under the first column. */
+.row.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(400px, 100%), 400px));
   justify-content: center;
+}
+
+.row.cardGrid > .header {
+  grid-column: 1 / -1;
 }
 .App-header {
   background: #336FCC;

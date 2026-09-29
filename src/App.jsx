@@ -24,7 +24,7 @@ function App() {
       <Container>
       <Nav className='m-auto' />
         <About /> 
-          <Row>
+          <Row className="cardGrid">
           <p className='header' id='Projects'> Projects</p>
           <Cards title="League of Legends Data analyst"  buttonText="More Information" 
           information = " Worked with the League of Legends public API to retrieve information from thousands of games with the goal of finding strategies used by skilled players to win games.
@@ -46,7 +46,7 @@ function App() {
           </Row>
        </Container>
        <Container>
-          <Row>
+          <Row className="cardGrid">
           <p className='header' id='GameJams'> Game Jams</p>
           <Cards title="Galactic Hoarder: Abduct and Arrange"  buttonText="More information"
             information = "A game jam game made in Unity 6 with C#. You play as a Galactic Hoarder, carefully filling your spaceship's container with abducted earthly valuables.
@@ -60,7 +60,7 @@ function App() {
           </Row>
        </Container>
        <Container>
-          <Row>
+          <Row className="cardGrid">
           <p className='header' > Work Experience </p>
           <Cards title="Canadian Tire Application Developer" buttonText="What do I do!"
           information = "Nov 2023 - Current. I build and maintain internal Angular web applications used by over 500 stores, giving them real-time access to sales, margins, and top-performing products.
@@ -79,7 +79,7 @@ function App() {
           </Row>
        </Container>
        <Container>
-          <Row>
+          <Row className="cardGrid">
           <p className='header'>Education</p>
           <Cards title="Bachelors of Arts In Computer Science"  buttonText="More information" 
           information = "University of British Columbia, Department of Science and Arts  2020-2023" 

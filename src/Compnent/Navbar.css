@@ -17,23 +17,20 @@
   opacity: 1;
 }
 
-/* Wrap whole links onto a new row on narrow screens, and let each link
-   keep its own height (instead of stretching to the two-line "Game Jams")
-   so every hover underline sits right under its own text. */
+/* Wrap whole links onto a new row on narrow screens. Links are top-aligned
+   so "Game" lines up with the other words, and each keeps its own height
+   (instead of stretching to the two-line "Game Jams") so every hover
+   underline sits right under its own text. */
 .navbar-nav {
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
   }
 
 .navBarLink {
     display: inline-block;
     position: relative;
     white-space: nowrap;
-  }
-
-.navBarLink.twoLine {
-    line-height: 1;
   }
   
   .navBarLink::after {
