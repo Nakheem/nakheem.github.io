@@ -52,7 +52,7 @@ function App() {
             information = "A game jam game made in Unity 6 with C#. You play as a Galactic Hoarder, carefully filling your spaceship's container with abducted earthly valuables.
                           Pieces fall like Tetris blocks: move them with the arrow keys, rotate them with Q and E, and don't overflow the container!
                           Made with a team of five, where I was one of three programmers."
-            image={GalacticHoarder} alt="Galactic Hoarder cover art" />
+            image={GalacticHoarder} alt="Galactic Hoarder cover art" buttonTitle = "Play on itch.io" link = {"https://wiredball.itch.io/galactic-hoarder-abduct-and-arrange"} />
           <Cards title="Summoner's Snackrifice"  buttonText="More information"
             information = "A game jam game made in Unity 6 with C#. A run of timed card mini-games: a 52 card pickup game where you drag the cards back into place,
                           a memory matching game, and Must Be Over 21 To Enter, where you have to place cards to make 21."
