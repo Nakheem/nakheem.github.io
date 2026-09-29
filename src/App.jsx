@@ -14,6 +14,8 @@ import UBC from "./Images/UBC_logo.png";
 import CTC from "./Images/CTC.png";
 import OC from "./Images/OC.png";
 import oldWebSite from "./Images/OldWebSite.png";
+import GalacticHoarder from "./Images/GalacticHoarder.svg";
+import SummonersSnackrifice from "./Images/SummonersSnackrifice.svg";
 
 function App() {
   return (
@@ -40,7 +42,21 @@ function App() {
             image={BlogWebSite} alt="Cat" github = {"https://github.com/Nakheem/360Website"} />
           <Cards title="Version 1 of website"  buttonText="More information" 
             information = "My old website, using static HTML and CSS. Based on a template" 
-            image={oldWebSite} alt="Cat" github = {"https://github.com/Nakheem/OldWebSite"} buttonTitle = {"Vist site"} link = {"https://nakheem.github.io/OldWebSite/"}/>  
+            image={oldWebSite} alt="Cat" github = {"https://github.com/Nakheem/OldWebSite"} buttonTitle = {"Vist site"} link = {"https://nakheem.github.io/OldWebSite/"}/>
+          </Row>
+       </Container>
+       <Container>
+          <Row>
+          <p className='header' id='GameJams'> Game Jams</p>
+          <Cards title="Galactic Hoarder: Abduct and Arrange"  buttonText="More information"
+            information = "A game jam game made in Unity 6 with C#. You play as a Galactic Hoarder, carefully filling your spaceship's container with abducted earthly valuables.
+                          Pieces fall like Tetris blocks: move them with the arrow keys, rotate them with Q and E, and don't overflow the container!
+                          Made with a team of five, where I was one of three programmers."
+            image={GalacticHoarder} alt="Galactic Hoarder cover art" />
+          <Cards title="Summoner's Snackrifice"  buttonText="More information"
+            information = "A game jam game made in Unity 6 with C#. A run of timed card mini-games: a 52 card pickup game where you drag the cards back into place,
+                          a memory matching game, and Must Be Over 21 To Enter, where you have to place cards to make 21."
+            image={SummonersSnackrifice} alt="Summoner's Snackrifice cover art" />
           </Row>
        </Container>
        <Container>
