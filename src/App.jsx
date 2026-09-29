@@ -56,7 +56,7 @@ function App() {
           <Cards title="Summoner's Snackrifice"  buttonText="More information"
             information = "A game jam game made in Unity 6 with C#. A run of timed card mini-games: a 52 card pickup game where you drag the cards back into place,
                           a memory matching game, and Must Be Over 21 To Enter, where you have to place cards to make 21."
-            image={SummonersSnackrifice} alt="Summoner's Snackrifice cover art" />
+            image={SummonersSnackrifice} alt="Summoner's Snackrifice cover art" buttonTitle = "Play on itch.io" link = {"https://wiredball.itch.io/summoners-snackrfice"} />
           </Row>
        </Container>
        <Container>
