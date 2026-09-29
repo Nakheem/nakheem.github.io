@@ -67,14 +67,15 @@ function App() {
           I own the full lifecycle, from requirements to testing and user support, and reached 100% store adoption within one month.
           I also build RESTful APIs with Java Spring, write automated tests with Jasmine, and help migrate legacy Excel tools to web applications." 
           image={CTC} alt="Canadian Tire logo" />
-          <Cards title="Canadian Tire Data Analyst Intern" buttonText="What I did do!"
-          information = "  Analysed Supplier Performance fines by reviewing different web-based systems, such as SPS commerce, retrieving data from EDW tables or pulling reports and reviewing them in Excel to identify discrepancies and determine whether fines were justified.
-          Collaborated with various stakeholders at different levels within the organization to communicate reasons for the acceptance or reversal of fines.
-          " 
-          image={CTC} alt="Cat" />
-          <Cards title="UBC Web Developer CO OP"  buttonText="What do I do!" 
-          information = "Developed features for a new University website, that would allow new Computer Science students to solve programming problems." 
-          image={UBC} alt="Cat" />
+          <Cards title="Canadian Tire Supply Chain Process Analyst CO OP" buttonText="What I did do!"
+          information = "Sept 2022 - Sept 2023. Audited supplier shipping data using EDW databases and SPS EDI systems to identify discrepancies.
+          Created a Python script to automate error detection that flagged over 500 errors in Excel-based audits on its first run.
+          Communicated with internal teams and external vendors to resolve shipping disputes, acting as mediator between stakeholders."
+          image={CTC} alt="Canadian Tire logo" />
+          <Cards title="UBC Web Developer CO OP"  buttonText="What I did do!"
+          information = "May 2021 - Sep 2021. Added a scoring system and leaderboard to an existing coding practice platform for UBC students.
+          Used a Django backend to support RESTful API requests from the frontend and manage data in a SQLite database, and wrote JUnit tests to validate student code submissions against multiple correct solutions."
+          image={UBC} alt="UBC logo" />
           </Row>
        </Container>
        <Container>
